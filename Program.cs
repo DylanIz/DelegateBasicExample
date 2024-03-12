@@ -2,7 +2,7 @@
 {
     class Program
     {
-        delegate void LogDel(string text, DateTime dateTime);
+        delegate void LogDel(string text);
         static void Main(string[] args)
         {
             LogDel logDel = new LogDel(LogTextToScreen);
@@ -12,14 +12,14 @@
 
             var name = Console.ReadLine();
 
-            logDel(name,DateTime.Now);
+            logDel(name);
 
             Console.ReadKey();
         }
 
-        static void LogTextToScreen(string text, DateTime dateTime)
+        static void LogTextToScreen(string text)
         {
-            Console.WriteLine($"{dateTime}: {text}");
+            Console.WriteLine($"{DateTime.Now}: {text}");
         }
     }
 
