@@ -1,2 +1,13 @@
 
 *.vsidx
+*.dll
+*.cache
+.vs/DelegateBasicExample/v17/.suo
+bin/Debug/net6.0/DelegateBasicExample.deps.json
+bin/Debug/net6.0/DelegateBasicExample.exe
+bin/Debug/net6.0/DelegateBasicExample.pdb
+bin/Debug/net6.0/DelegateBasicExample.runtimeconfig.json
+obj/Debug/net6.0/apphost.exe
+obj/Debug/net6.0/DelegateBasicExample.csproj.BuildWithSkipAnalyzers
+obj/Debug/net6.0/DelegateBasicExample.csproj.FileListAbsolute.txt
+obj/Debug/net6.0/DelegateBasicExample.pdb
